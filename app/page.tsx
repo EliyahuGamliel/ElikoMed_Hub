@@ -233,7 +233,7 @@ export default function AppLauncher() {
         </div>
 
         <div className="flex justify-center w-1/3">
-          <h1 className="text-2xl font-black tracking-tight flex" dir="ltr">
+          <h1 className="text-3xl font-black tracking-tight flex" dir="ltr">
             <span className="text-slate-800 dark:text-white">Eliko</span>
             <span className="text-indigo-500 dark:text-indigo-400">M</span>
             <span className="text-blue-600 dark:text-blue-500">ed</span>

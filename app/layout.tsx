@@ -26,7 +26,7 @@ export const viewport: Viewport = {
 
 // הגדרות SEO ושם הפלטפורמה
 export const metadata: Metadata = {
-  title: "ElikoMed | תחנת העבודה המרכזית",
+  title: "ElikoMed | רפואה העברית",
   description: "האקו-סיסטם הרפואי השלם. גישה מהירה ל-ExaMed, AlgorithMed ו-TeaMed.",
   appleWebApp: {
     title: "ElikoMed",

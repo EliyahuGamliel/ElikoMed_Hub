@@ -29,9 +29,19 @@ export const metadata: Metadata = {
   title: "ElikoMed | רפואה העברית",
   description: "האתר הראשי לכלי העזר לסטודנט לרפואה מבית ElikoMed.",
   appleWebApp: {
-    title: "ElikoMed",
+    capable: true, // אומר לאייפון להתנהג כמו אפליקציה אמיתית
     statusBarStyle: "default",
-    capable: true,
+    title: "ElikoMed",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon.ico", type: "image/x-icon" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
 };
 
